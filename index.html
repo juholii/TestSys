@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; URL=https://www.ilmatieteenlaitos.fi">
     <title>SysTest</title>
     <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
@@ -14,40 +13,9 @@
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
-
-    <style>
-        #popuphttp {
-            display: none;
-        }
-
-            #popuphttp:target {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(0, 0, 0, 0.5);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            #popuphttp .content {
-                background-color: white;
-                padding: 20px;
-                border-radius: 5px;
-                text-align: center;
-            }
-    </style>
 </head>
 
 <body>
-    <div id="popuphttp">
-        <div class="content">
-            <a href="https://www.lnetsys.fi">Lnetsys</a>
-        </div>
-    </div>
-
     <div id="app">
         <svg class="loading-progress">
             <circle r="40%" cx="50%" cy="50%" />
@@ -64,12 +32,6 @@
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 
-    <script type="text/javascript">
-        if (window.location.protocol === "http:") {
-            var popup = document.getElementById("popuphttp");
-            popup.style.display = "flex";
-        }
-    </script>
 </body>
 
 </html>

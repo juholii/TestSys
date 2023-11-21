@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SysTest",
   "resources": {
-    "hash": "sha256-dzmpTbcxOgKIYb0hiuxHeAkVUlf3g0aY88es4eeqgkQ=",
+    "hash": "sha256-y7qEuvMkVy/jRVYNl6xjQeAWaRX8uJMe807ufBbEXmQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.k7wdsfwrtu.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -48,7 +48,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-PPjgJMbaJy7HmAFbiVQDmuLd+9vm5X5Uxk2KptWctx4=",
       "System.Text.Json.wasm": "sha256-bYSMRA2prb9VQgWRPvZYl9lN9FU4qKdNig7DMQA4fJs=",
       "System.Text.RegularExpressions.wasm": "sha256-3TnJ+gFbcLQWd64dQi9CTds871jRDrawlfFObiJJADY=",
-      "SysTest.wasm": "sha256-r6CRIipCSZrH0tlaKGydcJT9cSxNs1LYmtAIXCUBeHY="
+      "SysTest.wasm": "sha256-W+B6m+1i6sScGMl3s24moyMlZIEH4McB26fapP5xI2g="
     }
   },
   "cacheBootResources": true,
